@@ -20,7 +20,7 @@ main{
 
 section#login{
     background-color: white;
-    height: 600px;
+    height: 590px;
     width: 350px;
 
     position: absolute;
@@ -45,4 +45,10 @@ section#login > div#imagem{
 
 section#login > div#form{
     padding: 10px;
+}
+section#login > div#form > h1{
+    text-align: center;
+}
+section#login > div#form > p{
+    font-size: 1em;
 }
