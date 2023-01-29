@@ -32,6 +32,16 @@
         width: 70%;
      
     }
+
+    form > input[type=submit]{
+        background-color: #cfb78d ;
+    }
+    form > input[type=submit]:hover{
+        background-color: #e9d0a5;
+    }
+    form > a.botao{
+        background-color: #FEE2B3;
+    }
 }
 
 @media screen and (min-width:992px) {
