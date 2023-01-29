@@ -3,11 +3,12 @@
 @media screen and (min-width:768px) and (max-width:991px) {
     
     body{
-        background-color: #FEE2B3;
+        background-image: linear-gradient(to top, #FEE2B3, #b49c72);
     }
 
     section#login{
         width: 80vw;
+        height: 315px;
     }
     section#login > div#imagem{
         float: left;
@@ -42,16 +43,23 @@
     form > a.botao{
         background-color: #FEE2B3;
     }
+    form > div.bloco{
+        background-color: #e9d0a5;
+        border: 1px solid rgba(0, 0, 0, 0.377);
+        margin-bottom: 2px;
+        margin: 10px;
+    }
 }
 
 @media screen and (min-width:992px) {
     
     body{
-        background-color: #8F6B79 ;
+        background-image: linear-gradient(to top, #884b61, #d69db3);
     }
     
     section#login{
         width: 950px;
+        height: 280px;
     }
     section#login > div#imagem{
         float: right;
@@ -82,5 +90,27 @@
         float: right;
         width: 50%;
         height: 100%;
+    }
+    form > div.bloco{
+        background-color: #8F6B79;
+        border: 1px solid rgba(0, 0, 0, 0.377);
+        margin-bottom: 2px;
+        margin: 10px;
+    }
+
+    form > input[type=submit]{
+        background-color: #ce9eb0;
+    }
+    form > a.botao{
+        background-color: #d3a1b4;
+    }
+
+    form > input[type=submit]:hover{
+        background-color: #745863;
+    }
+    form > a.botao:hover{
+        background-color: #9b7785;
+        color: white;
+    
     }
 }

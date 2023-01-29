@@ -98,3 +98,23 @@ form > a.botao:hover{
     background-color: white;
     
 }
+
+form > div.bloco{
+    background-color: rgb(46, 133, 133);
+    border:1px solid black;
+    margin-bottom: 2px;
+    border-radius: 8px;
+
+}
+
+div > input {
+    background-color:rgb(255, 255, 255);
+    width: 90%;
+
+}
+div > input:focus-within{
+    background-color: rgb(152, 255, 195);
+}
+div > label {
+    display: none;
+}
