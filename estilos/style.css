@@ -52,3 +52,15 @@ section#login > div#form > h1{
 section#login > div#form > p{
     font-size: 1em;
 }
+
+section#login > div#form > p.tablet{
+    display: none;
+    
+}
+section#login > div#form > p.pc{
+    display: none;
+    
+}
+section#login > div#form > p.celular{
+    display: block;
+}

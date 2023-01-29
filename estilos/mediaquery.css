@@ -14,10 +14,19 @@
         width: 30%;
         height: 100%;
         background: #FEE2B3 url(../imagem/kimimontanhaT.jpeg);
-        background-size: cover;
-        
+        background-size: cover;   
     }
 
+    section#login > div#form > p.tablet{
+        display: block;
+    }
+    section#login > div#form > p.pc{
+        display: none;   
+    }
+    section#login > div#form > p.celular{
+        display: none;
+    }
+    
     section#login > div#form{
         float: right;
         width: 70%;
@@ -45,6 +54,18 @@
         float: left;
         width: 50%;
 
+    }
+
+    section#login > div#form > p.pc{
+        display: block;
+        
+    }
+    section#login > div#form > p.tablet{
+        display: none;
+        
+    }
+    section#login > div#form > p.celular{
+        display: none;
     }
         
     section#login > div#form{
