@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    
+    body{
+        background-color: #FEE2B3;
+    }
+
+    section#login{
+        width: 80vw;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background: #FEE2B3 url(../imagem/kimimontanhaT.jpeg);
+        background-size: cover;
+        
+    }
+
+    section#login > div#form{
+        float: right;
+        width: 70%;
+     
+    }
+}
+
+@media screen and (min-width:992px) {
+    
+    body{
+        background-color: #8F6B79 ;
+    }
+    
+    section#login{
+        width: 950px;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;   
+        background: #8F6B79 url(../imagem/kimicarroP.jpeg) no-repeat ;
+        background-size: cover;
+        
+    }
+    section#login > div#form{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
